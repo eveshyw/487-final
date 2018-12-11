@@ -13,7 +13,7 @@ body {
   display: none;
 }
 
- 
+
 /* Add desktop styles here */
 #unlogo {
   height: 100px;
@@ -54,6 +54,42 @@ a:hover {
   background-color: #1a76d0;
   color: white;
 }
+
+.cards {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  margin: 10px;
+  color: white;
+  width: 150px;
+  background-color: #1a76d0;
+  position: relative;
+}
+
+.value {
+  display: none;
+}
+
+.ahover:hover ~ .value{
+    display: block;
+}
+
+.ahover:hover ~ .country {
+    display: none;
+}
+
+.ahover {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 90%;
+  height: 70%;
+}
+
 /* Add mobile styles here */
 @media (max-width:767px) {
   .mobile-btn {

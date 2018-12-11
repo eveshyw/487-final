@@ -40,6 +40,6 @@ function buildContent(data){
   for (var i=0; i<data.length; i++){
     console.log("Origin: "+data[i].Origin);
     console.log("Value: "+data[i].Value);
-    $(".cards").append("<div class='card'><p class='country'>"+data[i].Origin+"</p><p class='value'>"+data[i].Value+"Requests</p></div>");
+    $(".cards").append("<div class='card'><a class='ahover' href='#'></a><p class='country'>"+data[i].Origin+"</p><p class='value'>"+data[i].Value+" Requests</p></div>");
   }
 }
