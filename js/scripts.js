@@ -2,7 +2,7 @@ $(document).ready(function() {
   console.log('Ready to begin the test...');
 
   // Toggle with button
-    $( ".mobile-btn" ).click(function() {
+  $( ".mobile-btn" ).click(function() {
     $( "nav" ).toggle();
   });
 

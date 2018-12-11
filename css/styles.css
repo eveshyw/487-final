@@ -41,8 +41,8 @@ nav, #mynav {
 }
 
 a:hover, a:focus, a:active {
-     text-decoration: none;
-     color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a {
@@ -75,12 +75,16 @@ a:hover {
   display: none;
 }
 
+.card:hover{
+  background-color: #082745;
+}
+
 .ahover:hover ~ .value{
-    display: block;
+  display: block;
 }
 
 .ahover:hover ~ .country {
-    display: none;
+  display: none;
 }
 
 .ahover {
