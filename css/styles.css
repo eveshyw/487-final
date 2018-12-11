@@ -19,7 +19,6 @@ body {
 }
 
 header {
-  height: 100px;
   background-color: #ffda12;
   display: flex;
   justify-content: center;
@@ -37,7 +36,6 @@ nav, #mynav {
 
 #mynav li {
   display: inline-block;
-  padding:
 }
 
 a:hover, a:focus, a:active {
@@ -56,3 +54,34 @@ a:hover {
   color: white;
 }
 /* Add mobile styles here */
+@media (max-width:767px) {
+  .mobile-btn {
+    display: inline;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav, #mynav{
+    display: block;
+    background-color:  #082745;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  #mynav li {
+    display: block;
+    padding: 15px;
+  }
+
+  header{
+    display: block;
+  }
+
+  a {
+    color: #1a76d0;
+  }
+}
