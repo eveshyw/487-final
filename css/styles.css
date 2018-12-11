@@ -1,0 +1,58 @@
+/* Some default styling to get you started */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mobile-btn {
+  display: none;
+}
+
+/* Add desktop styles here */
+#unlogo {
+  height: 100px;
+}
+
+header {
+  height: 100px;
+  background-color: #ffda12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  display: none;
+}
+
+nav, #mynav {
+  display: inline-block;
+  color: #1a76d0;
+}
+
+#mynav li {
+  display: inline-block;
+  padding:
+}
+
+a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+
+a {
+  color: #1a76d0;
+  text-decoration: none;
+  padding: 8px;
+}
+
+a:hover {
+  background-color: #1a76d0;
+  color: white;
+}
+/* Add mobile styles here */
